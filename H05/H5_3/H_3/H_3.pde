@@ -1,8 +1,8 @@
-int gewicht = 85;
-int lengte = 195;
+float gewicht = 85;
+float lengte = 1.95;
 String a = "met een gewicht van ";
 String b = "kg en een lengte van ";
 String c = "cm, is jouw BMI ";
-int result = 5;
-result = lengte * lengte / gewicht;
+float result = 5;
+result = gewicht / (lengte * lengte);
 println(a + gewicht + b + lengte + c + result);

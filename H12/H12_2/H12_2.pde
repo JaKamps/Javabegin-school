@@ -11,9 +11,11 @@ void draw(){
 
 
 void mouseClicked(){
-  if(t <= 10000){
-    i += 1;
-    println(i);
+  if(mouseButton == LEFT){
+    if(t <= 10000){
+      i += 1;
+      println(i);
+    }
   }
 }
   

@@ -1,7 +1,6 @@
 int i = 0;
 int t;
 void setup(){
-  t = millis();
   
 }
 

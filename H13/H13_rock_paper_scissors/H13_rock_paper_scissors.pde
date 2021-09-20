@@ -45,13 +45,8 @@ void setup(){
 }
 
 void draw(){
-  if(i == 0){
-    i +=1;
-  }else if(i == 1){
-    i += 1;
-  }else if(i == 2){
-    i = 0;
-  }
+  float r = random(3);
+  i = (int)r;
   if(l == 3){
     println("You Lost");
   }else if(w ==3){
